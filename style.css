@@ -1,0 +1,117 @@
+@import 'https://fonts.googleapis.com/css?family=Poppins';
+html, body{
+  background: url("https://hd.unsplash.com/photo-1430854021588-96971d849d72") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    top:0;
+    left: 0;
+    margin: 0;
+}
+p {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+.header-container{
+  height: 7vh;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  opacity: .86;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+}
+.header-link{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 1.3em;
+}
+.header-link a {
+  text-decoration: none;
+  color: #fff;
+}
+#part-one{
+  height: 100vh;
+}
+.landing-page-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.center-text{
+  font-size: 10em;
+  color: #fff;
+}
+.wrapper-around-anchor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  margin-top: -15%;
+}
+.anchor{
+  height: 100px;
+  width: 200px;
+  background-color: white;
+  -webkit-clip-path: polygon(50% 84%, 91% 57%, 91% 75%, 50% 100%, 9% 75%, 9% 57%);
+  clip-path: polygon(50% 84%, 91% 57%, 91% 75%, 50% 100%, 9% 75%, 9% 57%);
+}
+
+#part-two{
+  height: 100vh;
+}
+.landing-page-container-2{
+  left:0;
+  background: url("https://hd.unsplash.com/photo-1470079813377-f8635936e3cb") no-repeat center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center-text-pt-2{
+  font-size: 5em;
+  text-align: center;
+}
+.anchor-2{
+  height: 100px;
+  width: 200px;
+  background-color: white;
+  -webkit-clip-path: polygon(50% 84%, 91% 57%, 91% 75%, 50% 100%, 9% 75%, 9% 57%);
+  clip-path: polygon(50% 84%, 91% 57%, 91% 75%, 50% 100%, 9% 75%, 9% 57%);
+}
+.wrapper-around-anchor-pt-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  margin-top: -15%;
+}
+#part-three{
+  height: 100vh;
+}
+.landing-page-container-3{
+  left:0;
+  background: url("https://hd.unsplash.com/photo-1470698416516-70c8af45a6b6") no-repeat center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-around-anchor-pt-3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  margin-top: -10%;
+}
